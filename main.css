@@ -1,0 +1,66 @@
+body {
+  background: #f0edf1 !important;
+  font-family: 'Roboto', sans-serif;
+}
+.card {
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px white;
+  /* box-shadow: 7px 10px 10px rgb(205 205 205), -7px -10px 15px rgb(255 255 255); */
+  background-color: #f0edf1 !important;
+  border-radius: 20px !important;
+}
+.card-img {
+  width: 100px !important;
+  height: 100px;
+  box-shadow: 0 0 2px #5f5f5f, 0 0 0 5px #f0edf1, 8px 8px 15px #a7aaaf, -8px -8px 15px white;
+}
+.card-title h6 {
+  color: #444;
+  font-weight: bold;
+}
+.card-title span {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.input-container {
+  border-radius: 20px;
+  padding: 4px;
+  box-shadow: -8px -8px 8px white inset, 8px 8px 8px #dbd9d9 inset;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.input-container img {
+  width: 20px;
+  height: 20px;
+}
+input {
+  background-color: transparent ;
+  border: 0;
+  padding: 5px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  background-image: linear-gradient(to right, #c32ce9 , #930fb4);;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 5px 5px 10px #b1b1b1, -5px -5px 10px white;
+  border: none;
+  padding: 4px 0;
+}
+.sign-up {
+  font-size: 12px;
+  font-weight: bold;
+  color: #555;
+
+}
+.sign-up a {
+  font-weight: normal;
+  color: #777;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+.sign-up a:hover {
+  color: #111;
+}
